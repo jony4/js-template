@@ -1,10 +1,11 @@
 import './assets/main.css'
+import './assets/tailwind.css'
 
 import {createApp} from 'vue'
 import App from './App.vue'
 
-import '@tabler/core/dist/css/tabler.css'
-import '@tabler/core/dist/js/tabler.js'
+// import '@tabler/core/dist/css/tabler.css'
+// import '@tabler/core/dist/js/tabler.js'
 
 const app = createApp(App)
 

@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import TablerCore from "@/components/TablerCore.vue";
+import Tailwind from "@/components/Tailwindui.vue";
 </script>
 
 <template>
@@ -15,9 +15,9 @@ import TablerCore from "@/components/TablerCore.vue";
 
   <main>
     <TheWelcome/>
+    <Tailwind/>
   </main>
 
-  <TablerCore></TablerCore>
 </template>
 
 <style scoped>
